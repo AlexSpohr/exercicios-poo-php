@@ -1,0 +1,15 @@
+Desafio: Sistema de Gestão de Biblioteca
+
+Você foi contratado para criar um sistema de gestão de biblioteca em PHP. O sistema deve ser capaz de realizar as seguintes operações:
+
+Adicionar um livro à biblioteca, incluindo informações como título, autor, ano de publicação e número de cópias disponíveis.
+
+Remover um livro da biblioteca com base no título.
+
+Verificar se um livro específico está disponível na biblioteca.
+
+Listar todos os livros da biblioteca, mostrando as informações completas de cada livro.
+
+Permitir que um usuário pegue emprestado um livro, reduzindo o número de cópias disponíveis.
+
+Permitir que um usuário devolva um livro, aumentando o número de cópias disponíveis.

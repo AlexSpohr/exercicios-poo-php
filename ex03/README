@@ -1,0 +1,11 @@
+Imagine um jogo de baralho tradicional (baralho francês) com 52 cartas divididas em 4 naipes (13 cartas de cada naipe). Cada carta do baralho possui um naipe (paus, ouros, copas, espadas) e é identificada por um número (1 a 10) ou um nome (valete, dama, rei). O número 1 também pode ser chamados de ás, o valete de J (Jack), a dama de Q (Queen) e o rei de K (King).
+
+Crie um programa com três classes (Principal ou Main, Baralho e Carta).
+
+A classe Carta terá dois atributos: naipe (String) e valor (o valor conterá uma String com o valor numérico ou nome da carta); e um método construtor com dois parâmetros (naipe e valor). O construtor deverá disparar uma exceção (não monitorada) caso seja repassado um naipe ou um valor inválido na criação de uma carta.
+
+A classe Baralho terá um atributo: pilhaCartas (vetor ou lista); e três métodos: um construtor sem parâmetros responsável por criar as 52 cartas do baralho e empilhar elas na pilha de cartas em ordem sequencial, um método embaralhar responsável por embaralhar a pilha de cartas deixando-as em uma ordem aleatória, e um método pescar (retira a carta do topo da pilha de cartas e retorna ela). O método pescar deve criar uma exceção (monitorada) caso se tente pescar uma carta e a pilha de cartas ou baralho estiver vazio.
+
+A classe Principal deverá conter um atributo baralho (tipo Baralho) e um atributo maoJogador (vetor ou lista com cartas) e o método main. O método main deverá instanciar o baralho, embaralhar o baralho e pescar 7 cartas, adicionando-as na mão do jogador. Trate a exceção monitorada do método pescar imprimindo uma mensagem para o usuário: "Baralho vazio, não é possível pescar mais cartas". Imprimir no final todas as cartas na mão do jogador.
+
+
